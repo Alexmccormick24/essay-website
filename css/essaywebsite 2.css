@@ -37,7 +37,7 @@
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
  background-color: deeb34;
- color: white;
+ color: #a7b327;
 }
 .dropdown-content {
  display: none;
