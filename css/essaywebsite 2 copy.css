@@ -9,10 +9,15 @@
 
 /*-------NAV------*/
 .navbar {
- margin-left: auto;
+position: fixed; 
+ top: 0;
+ width: 100%;
+ transition: top 0.3s;
  margin-right: auto;
+ margin-left: auto;
  overflow: hidden;
  background-color: #deeb34;
+
 }
 .navbar a {
  float: left;
@@ -21,6 +26,7 @@
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
+
 }
 .dropdown {
  float: left;
@@ -34,7 +40,7 @@
  padding: 14px 16px;
  background-color: inherit;
  font-family: inherit;
- margin: 0;
+ margin: auto;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
  background-color: deeb34;
@@ -108,7 +114,7 @@ h3 {font-size: 1.953em;
 margin-bottom: 1.5em;}
 
 blockquote {
-  font-size: 1.2em;
+  font-size: 1.414em;
   hanging-punctutation: first;
   text-indent: -0.44em;
   color:  #000000;
@@ -189,15 +195,6 @@ width: 100%;
 }
 
 .footer_img img {
-}
-
-.caption {
-  display: block;
-  margin: 1em auto;
-  padding: 3;
-  max-width: 100%;
-  font-size: 12px;
-  text-align: center;
 }
 
 /*-------FOOTER------*/
